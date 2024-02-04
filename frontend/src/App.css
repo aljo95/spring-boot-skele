@@ -10,15 +10,12 @@
   border-radius: 25px;
   box-shadow: 0 0 2px rgb(80, 79, 79); 
 }
-
 form {
   height: 250px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-
 }
 .inputs {
   height: 10%;
@@ -28,9 +25,6 @@ form {
 }
 .paragraph-1 {
   width: 25%;
-}
-.get-info-container {
-  
 }
 .text-container {
   display: flex;
@@ -46,19 +40,10 @@ form {
 .inputs-two {
   width: 40%;
   height: 30px;
-  display: show;  /* This is cause of moving root-container! */
-  margin: auto;      /* AND THE MARGIN IN #ROOT AT TOP!!!! WTF XD */
+  display: show;  
+  margin: auto;     
   padding: 0;
 }
-
-
-#wtf {
-  width: 50px;
-  outline: auto;
-  text-align: center;
-  vertical-align: middle;
-}
-
 /* when width small make no margin on top at all */
 @media screen and (max-width: 600px) {
   #root {
